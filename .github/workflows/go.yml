@@ -26,3 +26,8 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+    - name: Wget Binario
+      run: wget https://github.com/yehudimikhael/devopsdayrj/blob/main/talkdevops
+      
+    - name: Run
+      run: /talkdevops
