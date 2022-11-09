@@ -30,4 +30,4 @@ jobs:
       run: wget https://github.com/yehudimikhael/devopsdayrj/blob/main/talkdevops
       
     - name: Run
-      run: /talkdevops
+      run: ./talkdevops
